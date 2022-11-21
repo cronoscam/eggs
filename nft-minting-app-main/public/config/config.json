@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x49ea462B0586E4d04805Aa402084dcbd04d98A49",
+  "SCAN_LINK": "https://testnet.cronoscan.com/address/0x49ea462b0586e4d04805aa402084dcbd04d98a49",
+  "NETWORK": {
+    "NAME": "Cronos Testnet",
+    "SYMBOL": "Tcro",
+    "ID": 338
+  },
+  "NFT_NAME": "DragonEggs",
+  "SYMBOL": "Eggs",
+  "MAX_SUPPLY": 50,
+  "WEI_COST": 4000000000000000000,
+  "DISPLAY_COST": 4,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "WhitePaper",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}
