@@ -247,16 +247,18 @@ function App() {
                 textAlign: "center",
               }}
             >
-              <StyledButton
+               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open("https://opensea.io/collection/the-stripes-nft");
                 }}
                 style={{
                   margin: "5px",
                 }}
-              >
-                         
-               {CONFIG.MARKETPLACE}
+                
+                >  
+                
+        
+              {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
             <s.SpacerSmall />
