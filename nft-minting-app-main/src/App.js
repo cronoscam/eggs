@@ -255,18 +255,8 @@ function App() {
                   margin: "5px",
                 }}
               >
-                Roadmap
-              </StyledButton>
-              <StyledButton
-                style={{
-                  margin: "5px",
-                }}
-                onClick={(e) => {
-                  window.open(CONFIG.MARKETPLACE_LINK, "_blank");
-                }}
-              >
-            
-                {CONFIG.MARKETPLACE}
+                         
+               {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
             <s.SpacerSmall />
