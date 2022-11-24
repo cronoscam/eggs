@@ -145,7 +145,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit ebisusbay.com to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -201,13 +201,13 @@ function App() {
         style={{ padding: 25, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-        <a href={CONFIG.MARKETPLACE_LINK}>
+        <a href>
           <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         </a>
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-          <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -249,7 +249,7 @@ function App() {
             >
                <StyledButton
                 onClick={(e) => {
-                  window.open("https://opensea.io/collection/the-stripes-nft");
+                  window.open(CONFIG.MARKETPLACE_LINK);
                 }}
                 style={{
                   margin: "5px",
@@ -258,7 +258,7 @@ function App() {
                 >  
                 
         
-              {CONFIG.MARKETPLACE}
+               {CONFIG.MARKETPLACE}
               </StyledButton>
             </span>
             <s.SpacerSmall />
